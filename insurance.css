@@ -1,0 +1,109 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    background-color: rgb(230, 233, 235);
+    
+}
+
+.navbar{
+    height:50px ;
+    width:100%;
+    display: flex;
+    align-items: center;
+    padding-left:390px ;
+    justify-content: space-around;
+    background-color: rgb(213, 207, 200);
+    box-shadow:2px 5px 8px #333333, 2px 2px 2px #333333;
+    
+}
+
+.one{
+    margin-top: 20px;
+
+
+}
+.main{
+    display:flex ;
+    margin-top:9px;
+    height:600px;
+    width: 100%;
+    background-color: rgb(230, 233, 235); 
+}
+.out{
+    padding-left:17px;
+    height: 50 px;
+    width:100px ;
+    background: rgb(110, 110, 110);
+    justify-content: space-evenly;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    color: rgb(25, 25, 25);
+    box-sizing: border-box;
+    margin-right: 10px;
+
+}
+.out a{
+    text-decoration: none;
+    color:black;
+}
+.icon{
+    display: flex;
+    font-size: 20px;
+    height: 28px;
+    width:29px;
+    border-radius: 50%;
+    background: rgb(150, 150, 158); 
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    padding-top:16px;
+    padding-left:5px;
+}
+.icon i{
+    font-size:20px;
+    height: 28px;
+    width: 22px;
+    border-radius:60%;
+    
+}
+.out:hover{
+    background-color: #333333;
+}
+
+.mainsection{
+    display:flex;
+    margin-left: 25px;
+    margin-top:9px;
+    height:500px;
+    width:100%;
+    background-color: rgb(230, 233, 235); 
+
+}
+.one{
+    margin-top: 20px
+      
+}
+.left{ 
+    display:flex;
+    margin-left: 25px;
+    margin-top:9px;
+    height:500px;
+    width:50%;
+    background-color: rgb(230, 233, 235); 
+
+}
+.right{
+    display:flex;
+    margin-left: 25px;
+    margin-top:2px;
+    height:500px;
+    width: 100%;
+    background-color: rgb(230, 233, 235); 
+}

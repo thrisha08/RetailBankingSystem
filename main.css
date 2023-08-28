@@ -1,0 +1,241 @@
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    height:50px ;
+    width:100%;
+    display: flex;
+    padding-left:390px ;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(213, 207, 200);
+    box-shadow:2px 5px 8px #333333, 2px 2px 2px #333333
+   
+}
+.out{
+    padding-left:17px;
+    height: 50 px;
+    width:100px ;
+    background: rgb(110, 110, 110);
+    justify-content: space-evenly;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    color: rgb(25, 25, 25);
+    box-sizing: border-box;
+    margin-right: 10px;
+
+}
+.out a{
+    text-decoration: none;
+    color:black;
+}
+.icon{
+    display: flex;
+    font-size: 20px;
+    height: 28px;
+    width:29px;
+    border-radius: 50%;
+    background: rgb(150, 150, 158); 
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    padding-top:16px;
+    padding-left:5px;
+}
+.icon i{
+    font-size:20px;
+    height: 28px;
+    width: 22px;
+    border-radius:60%;
+    
+}
+.out:hover{
+    background-color: #333333;
+}
+
+
+.mainsection{
+    display:flex ;
+    margin-top:9px;
+    height:600px;
+    width: 100%;
+    background-color: rgb(230, 233, 235); 
+    
+   
+}
+
+.left{ 
+    height:100%;
+    width: 50%;
+}
+.saving.h1{
+    margin-top:20px;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.saving{
+    margin-top:15%;
+    margin-left:30%;
+    height:100px;
+    width:200px;
+    border-radius:5px;
+    background-color: rgb(213, 207, 200);
+
+}
+.saving a{
+    text-decoration: none;
+    color: black;
+    margin-top:10px;
+    padding:(10px,10px);
+
+}
+.saving img{
+    margin-top:4px;
+}
+.saving:hover{
+    background-color: rgb(181, 175, 168);
+    transform: (1.1);
+    cursor: pointer;
+
+}
+
+
+.internet{
+    margin-top:15%;
+    margin-left:30%;
+    height:100px;
+    width:200px;
+    border-radius:5px;
+    background-color: rgb(213, 207, 200);
+}
+.internet a{
+    text-decoration: none;
+    color: black;
+    margin-top:10px;
+    padding:(10px,10px);
+}
+.internet:hover{
+    background-color: rgb(181, 175, 168);
+    transform: (1.1);
+    cursor: pointer;
+
+}
+.right{
+    height:100%;
+    width: 50%  ;
+}
+
+.fund{
+    margin-top:15%;
+    margin-left:30%;
+    height:100px;
+    width:200px;
+    border-radius:5px;
+    background-color: rgb(213, 207, 200);
+
+}
+.fund a{
+    text-decoration: none;
+    color: black;
+}
+.fund img{
+    margin-top: 5px;
+}
+.fund:hover{
+    background-color: rgb(181, 175, 168);
+    transform: (1.1);
+    cursor: pointer;
+
+}
+
+.fixed{
+    margin-top:15%;
+    margin-left:30%;
+    height:100px;
+    width:200px;
+    border-radius:5px;
+    background-color: rgb(213, 207, 200);
+
+}
+.fixed a{
+    text-decoration: none;
+    color: black;
+}
+
+.fixed img{
+    margin-top: 5px;
+}
+
+.fixed:hover{
+    background-color: rgb(181, 175, 168);
+    transform: (1.1);
+    cursor: pointer;
+
+}
+.fund:hover{
+    background-color: rgb(181, 175, 168);
+    transform: (1.1);
+    cursor: pointer;
+
+}
+
+.last{
+    height:100%;
+    width: 50%;
+}
+.invest{
+    margin-top:15%;
+    margin-left:30%;
+    height:100px;
+    width:200px;
+    border-radius:5px;
+    background-color: rgb(213, 207, 200);
+
+}
+.invest a{
+    text-decoration: none;
+    color: black;
+}
+.invest img{
+    margin-top: 5px;
+}
+.invest:hover{
+    background-color: rgb(181, 175, 168);
+    transform: (1.1);
+    cursor: pointer;
+
+}
+
+.view{
+    margin-top:23%;
+    margin-left:30%;
+    height:50px;
+    width:200px;
+    border-radius:5px;
+    background-color: rgb(213, 207, 200);
+
+}
+.view a{
+    text-decoration: none;
+    color: black;
+    padding:50px;
+    
+}
+.view h3{
+    padding-top:15px;
+}
+.view:hover{
+    background-color: rgb(181, 175, 168);
+    transform: (1.1);
+    cursor: pointer;
+
+}
+

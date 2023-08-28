@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(230, 233, 235);
+}
+.login{
+    display: flex;
+    background-color: rgb(213, 207, 200);
+    height: 260px;
+    width: 360px;
+    margin-left:35%;
+    margin-top: 100px;
+    border-radius:2%;
+}
+.username{
+   margin-top:50px;
+   margin-left:50px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
